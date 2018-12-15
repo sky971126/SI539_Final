@@ -54,8 +54,6 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 .gallery{
-	width: 95%;
-	margin:0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-column-gap: 10px;
@@ -133,6 +131,24 @@ a.skip-main:focus, a.skip-main:active {
 }
 */
 .state{
+	width: 90%;
+	margin-left: 5%;
+	font-family: Vollkorn;
+}
+.state-hide{
+	height:80px;
+}
+
+.state h3{
+	font-size: 20px;
+}
+
+.title{
+	margin-top: 80px;
+	text-align: center;
 	font-family: Vollkorn;
 }
 
+nav{
+	font-family: Vollkorn;
+}
