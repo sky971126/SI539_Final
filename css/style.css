@@ -15,17 +15,15 @@
 }
 
 .quote{
+	font-size: 40px;
+	font-family: Kalam;
   text-align: left;
-  width: 800px;
-  margin-bottom: 400px;
+  width: 60vw;
+  margin-bottom: 45vh;
 }
 
 .quote .author{
   text-align: right;
-}
-
-.quote h1{
-  font-size: 30px;
 }
 
 
@@ -123,5 +121,18 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 #myBtn:hover {
-background-color: rgb(7, 15, 126);
+	background-color: rgb(7, 15, 126);
 }
+/*
+.item{
+	display: none;
+}
+
+.item-first{
+	display: inline;
+}
+*/
+.state{
+	font-family: Vollkorn;
+}
+
