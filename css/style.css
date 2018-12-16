@@ -152,6 +152,111 @@ nav{
 	font-family: Vollkorn;
 }
 
+
+.instruction-top{
+	height: 70vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Vollkorn;
+}
+
+.instruction-top h1{
+	width:60%;
+	padding-top: 10%;
+	margin-left: 20%;
+	color: white;
+}
+
+.instruction-main h2{
+	margin: 5% 3% 3% 5%;
+}
+
+.instruction-main h3{
+	font-size: 20px;
+	margin: 2% 3% 2% 5%;
+}
+
+.instruction-main .instruction-list{
+	font-size: 20px;
+	margin-left: 7%;
+}
+
+.bg-image-full{
+	height: 50vh;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.contact-top{
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Caveat;
+	color: white;
+}
+
+.contact-quote{
+	width:60%;
+	padding-top: 15%;
+	padding-left: 20%;
+}
+
+.contact-quote h1{
+	font-size: 40px;
+}
+.contact-quote h2{
+	margin-top: 10%;
+	font-size: 30px;
+}
+
+.contact-quote a{
+	color:rgb(118, 203, 252);
+}
+
+#contact-content{
+	display: block;
+}
+
+form{
+	padding: 5%;
+}
+
+form span{
+	width: 30%;
+	vertical-align: text-top;
+	display: inline-block;
+}
+form span div{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	height: 30%;
+	display: block;
+}
+
+nav a{
+	color:rgba(255, 255, 255, 0.6) !important;
+}
+
+nav .active a{
+	color: white !important;
+}
+
+.navbar-brand{
+	color: white !important;
+}
+
+
 @media screen and (max-width:910px){
 	iframe{
 		display: none !important;
@@ -161,6 +266,13 @@ nav{
 @media screen and (max-width:438px){
 	.title{
 		margin-top: 130px;
+	}
+	.instruction-top h1{
+		padding-top: 25%;
+	}
+	.contact-quote{
+		font-size: 10px;
+		padding-top:27%;
 	}
 }
 
@@ -179,5 +291,26 @@ nav{
 	.click-view{
 		display: block !important;
 	}
+	.contact-quote{
+		width: 80%;
+	}
+	.contact-quote h1{
+		font-size: 30px;
+	}
+	.contact-quote h2{
+		font-size: 25px;
+	}
+	.contact-top{
+		height: 80vh;
+	}
 }
 
+@media screen and (max-width:810px){
+	form span{
+		width: 80%;
+		display: block;
+	}
+	textarea{
+		width: 100%;
+	}
+}
